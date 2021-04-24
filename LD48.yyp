@@ -1,6 +1,27 @@
 {
   "resources": [
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"spr_goblin_philosopher","path":"sprites/spr_goblin_philosopher/spr_goblin_philosopher.yy",},"order":3,},
+    {"id":{"name":"Useful_functions","path":"scripts/Useful_functions/Useful_functions.yy",},"order":1,},
+    {"id":{"name":"obj_goblin","path":"objects/obj_goblin/obj_goblin.yy",},"order":3,},
+    {"id":{"name":"til_cave","path":"tilesets/til_cave/til_cave.yy",},"order":1,},
+    {"id":{"name":"goblin_states","path":"scripts/goblin_states/goblin_states.yy",},"order":3,},
+    {"id":{"name":"spr_goblin_idle","path":"sprites/spr_goblin_idle/spr_goblin_idle.yy",},"order":1,},
+    {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"order":1,},
+    {"id":{"name":"collisions","path":"scripts/collisions/collisions.yy",},"order":2,},
+    {"id":{"name":"Room_init","path":"rooms/Room_init/Room_init.yy",},"order":0,},
+    {"id":{"name":"Script5","path":"scripts/Script5/Script5.yy",},"order":4,},
+    {"id":{"name":"spr_tiles_background","path":"sprites/spr_tiles_background/spr_tiles_background.yy",},"order":0,},
+    {"id":{"name":"til_col","path":"tilesets/til_col/til_col.yy",},"order":2,},
+    {"id":{"name":"spr_col","path":"sprites/spr_col/spr_col.yy",},"order":0,},
+    {"id":{"name":"spr_goblin_phil_pickedup","path":"sprites/spr_goblin_phil_pickedup/spr_goblin_phil_pickedup.yy",},"order":4,},
+    {"id":{"name":"obj_gameobject","path":"objects/obj_gameobject/obj_gameobject.yy",},"order":2,},
+    {"id":{"name":"spr_tiles_cave","path":"sprites/spr_tiles_cave/spr_tiles_cave.yy",},"order":1,},
+    {"id":{"name":"obj_gamemaster","path":"objects/obj_gamemaster/obj_gamemaster.yy",},"order":0,},
+    {"id":{"name":"obj_goblin_philosopher","path":"objects/obj_goblin_philosopher/obj_goblin_philosopher.yy",},"order":4,},
+    {"id":{"name":"Sprite5","path":"sprites/Sprite5/Sprite5.yy",},"order":15,},
+    {"id":{"name":"Room_game","path":"rooms/Room_game/Room_game.yy",},"order":1,},
+    {"id":{"name":"til_bg","path":"tilesets/til_bg/til_bg.yy",},"order":0,},
+    {"id":{"name":"MACROS","path":"scripts/MACROS/MACROS.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Main","path":"options/main/options_main.yy",},
@@ -14,7 +35,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Room_init","path":"rooms/Room_init/Room_init.yy",},},
+    {"roomId":{"name":"Room_game","path":"rooms/Room_game/Room_game.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -31,6 +53,7 @@
     {"folderPath":"folders/Animation Curves.yy","order":12,"resourceVersion":"1.0","name":"Animation Curves","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Notes.yy","order":13,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Tilesets.yy","order":2,"resourceVersion":"1.0","name":"Tilesets","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

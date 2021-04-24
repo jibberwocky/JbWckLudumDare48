@@ -1,4 +1,2 @@
 /// @description Insert description here
-function Script1(){
-
-}
+script_execute(state);
