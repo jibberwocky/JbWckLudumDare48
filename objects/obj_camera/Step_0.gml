@@ -1,5 +1,5 @@
 /// @description move to near where we want to go
-
+if(global.paused){exit};
 
 //update based on mouse scroll
 var _input_up = mouse_wheel_up();

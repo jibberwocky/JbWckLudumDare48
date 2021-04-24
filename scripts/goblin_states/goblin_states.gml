@@ -2,8 +2,10 @@
 function scr_goblin_state_idle(){
 	vSpeed += GRAV;
 	if(scr_tile_collison()){
-		Echo("we hit something!");
+		//Echo("we hit something!");
 	}
+	
+	
 
 }
 
@@ -11,13 +13,33 @@ function scr_goblin_state_idle(){
 function scr_goblin_phil_state_idle(){
 	vSpeed += GRAV;
 	if(scr_tile_collison()){
-		Echo("we hit something!");
+		//Echo("we hit something!");
 	}
 	
 	if(mouse_check_button_pressed(mb_left))&&position_meeting(mouse_x, mouse_y, id){
 		scr_pickup();
 	}
 	
+	if(vSpeed = 0)&&(!in_conversation){
+		//if we are flat on the ground
+		var _inst = collision_rectangle(x-detection_range, y-TILE_SIZE,x+detection_range, y+TILE_SIZE, obj_goblin,false,true);
+		
+		if(_inst != noone)&&(!_inst.in_conversation){
+			//if there is another goblin nearby and they are also not in conversation
+			image_xscale = sign(_inst.x - x);
+			in_conversation = true;
+			with(_inst){
+				image_xscale = sign(other.x - x);
+				in_conversation = true;
+			}
+			
+			var _convo = instance_create_layer(x,y,"Instances",obj_conversation);
+			with(_convo){
+				philosopher = other;
+				subject = _inst;
+			}
+		}
+	}
 
 }
 

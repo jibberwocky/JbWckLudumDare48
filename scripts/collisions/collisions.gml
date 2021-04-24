@@ -24,7 +24,7 @@ function scr_tile_collison(){
 		}
 		vSpeed = 0;
 		_collision = true;
-		Echo("we hit something! verticall");
+		//Echo("we hit something! verticall");
 	
 	}
 	

@@ -12,7 +12,14 @@ function MACROS(){
 	#macro SCROLL_SENSITIVY 4
 	
 	#macro GRAV 0.1
+	
+	#macro CONVO_RANGE 100
+	
+	#macro increment_speed 0.1
 }
 
 	
+enum Preferences{
 	
+	//ten random things
+}
