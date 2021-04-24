@@ -61,7 +61,7 @@ a4 = (to - from) * 0.5;
 return from + a4 + sin((((current_time * 0.001) + duration * offset) / duration) * (pi*2)) * a4;
 }
 
-function wrap(value, _min, _max){
+function Wrap(value, _min, _max){
 	/// @description Wrap(value, min, max)
 	/// @function Wrap
 	/// @param value

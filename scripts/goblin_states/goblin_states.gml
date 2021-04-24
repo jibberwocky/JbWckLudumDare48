@@ -15,7 +15,7 @@ function scr_goblin_phil_state_idle(){
 	}
 	
 	if(mouse_check_button_pressed(mb_left))&&position_meeting(mouse_x, mouse_y, id){
-
+		scr_pickup();
 	}
 	
 
@@ -29,4 +29,10 @@ function scr_goblin_phil_state_picked_up(){
 	if(x != mouse_x){
 		image_xscale = sign(mouse_x-x);
 	}
+	
+	
+	if(mouse_check_button_pressed(mb_left))||(mouse_check_button_released(mb_left)){
+		scr_drop();
+	}
+	
 } 

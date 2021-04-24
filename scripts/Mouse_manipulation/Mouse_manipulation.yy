@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Script5",
+  "name": "Mouse_manipulation",
   "tags": [],
   "resourceType": "GMScript",
 }

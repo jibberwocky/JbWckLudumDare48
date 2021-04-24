@@ -9,7 +9,7 @@
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"order":1,},
     {"id":{"name":"collisions","path":"scripts/collisions/collisions.yy",},"order":2,},
     {"id":{"name":"Room_init","path":"rooms/Room_init/Room_init.yy",},"order":0,},
-    {"id":{"name":"Script5","path":"scripts/Script5/Script5.yy",},"order":4,},
+    {"id":{"name":"Mouse_manipulation","path":"scripts/Mouse_manipulation/Mouse_manipulation.yy",},"order":4,},
     {"id":{"name":"spr_tiles_background","path":"sprites/spr_tiles_background/spr_tiles_background.yy",},"order":0,},
     {"id":{"name":"til_col","path":"tilesets/til_col/til_col.yy",},"order":2,},
     {"id":{"name":"spr_col","path":"sprites/spr_col/spr_col.yy",},"order":0,},

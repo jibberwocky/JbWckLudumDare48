@@ -32,5 +32,9 @@ function scr_tile_collison(){
 	x += hSpeed;
 	y += vSpeed;
 	
+	//if the object is outside the room return it to the room
+	x = Wrap(x, 0, room_width);
+	y = Wrap(y, 0, room_height);
+	
 	return _collision;
 }
