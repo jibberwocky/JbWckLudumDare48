@@ -29,3 +29,5 @@ for(var i  = 0; i <= 3; i++){
 	option_icon = [1];
 }
 option_icon = [-1,-1,-1];
+
+scr_play_sound(snd_chatter);

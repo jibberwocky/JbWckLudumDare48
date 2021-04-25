@@ -11,6 +11,7 @@ dark_wizard_limit = 1;
 
 
 if(room == Room_game){
+	 scr_play_bgm(bgm_1);
 	repeat(15){
 		var xx = random_range(TILE_SIZE, room_width-TILE_SIZE)
 		var yy = random_range(500, room_height-TILE_SIZE)

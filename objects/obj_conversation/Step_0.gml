@@ -36,12 +36,15 @@ if(breakpoints != -1) && (check_breakpoints()){//if we are at a breakpoint
 		with(subject){
 			if(object_index == obj_goblin)||(object_index == obj_tutorial_goblin){
 				instance_change(obj_goblin_philosopher,true);
+				scr_play_sound(snd_aha);
 			}if(object_index == obj_dark_wizard){
+				scr_play_sound(snd_laugh);
 				with(other.philosopher){
 					instance_change(obj_goblin,true);
 				}
 			}else{
 				//talking to each other just makes them more entrenched
+				scr_play_sound(snd_aha);
 				for(var i = 0; i < array_length(preferences); i++){
 					preferences[i] = preferences[i]*2;
 				}

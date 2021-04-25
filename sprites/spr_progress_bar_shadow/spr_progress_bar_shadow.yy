@@ -25,8 +25,6 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"8371cbdb-42e9-490c-9c98-78ddd8a73fde","path":"sprites/spr_progress_bar_shadow/spr_progress_bar_shadow.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8371cbdb-42e9-490c-9c98-78ddd8a73fde","path":"sprites/spr_progress_bar_shadow/spr_progress_bar_shadow.yy",},"LayerId":{"name":"b4a48c31-4766-4e9c-a302-0d84a6c75595","path":"sprites/spr_progress_bar_shadow/spr_progress_bar_shadow.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"8371cbdb-42e9-490c-9c98-78ddd8a73fde","path":"sprites/spr_progress_bar_shadow/spr_progress_bar_shadow.yy",},"LayerId":{"name":"d50ab94c-33b1-479a-a6ee-9fdda8e98e12","path":"sprites/spr_progress_bar_shadow/spr_progress_bar_shadow.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"8371cbdb-42e9-490c-9c98-78ddd8a73fde","path":"sprites/spr_progress_bar_shadow/spr_progress_bar_shadow.yy",},"LayerId":{"name":"e214298a-3706-42a2-8812-35154d9652ac","path":"sprites/spr_progress_bar_shadow/spr_progress_bar_shadow.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_progress_bar_shadow","path":"sprites/spr_progress_bar_shadow/spr_progress_bar_shadow.yy",},"resourceVersion":"1.0","name":"8371cbdb-42e9-490c-9c98-78ddd8a73fde","tags":[],"resourceType":"GMSpriteFrame",},
   ],

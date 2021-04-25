@@ -30,7 +30,7 @@
 0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
 1,1,1,1,1,1,0,0,0,0,0,1,1,1,1,1,1,1,1,1,
 1,1,1,1,1,1,0,0,0,0,0,1,1,1,1,1,1,1,1,1,
-],},"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":true,"inheritLayerSettings":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Tiles_col","tags":[],"resourceType":"GMRTileLayer",},
+],},"visible":false,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":true,"inheritLayerSettings":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Tiles_col","tags":[],"resourceType":"GMRTileLayer",},
     {"tilesetId":{"name":"til_cave","path":"tilesets/til_cave/til_cave.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":20,"SerialiseHeight":12,"TileSerialiseData":[
 2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
 2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,

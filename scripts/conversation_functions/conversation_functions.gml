@@ -69,9 +69,11 @@ function scr_interact_icon (_icon, _pos, _x_scale){
 			var _progress = subject.preferences[_icon];
 			progress += _progress;
 			if(_progress > 0){
+				scr_play_sound(snd_approval);
 				next_breakpoint += 1;
 				_emoticon = 0;
 			}else{
+				scr_play_sound(snd_dissaproval);
 				_emoticon = 1;
 			}
 			_chosen = true;

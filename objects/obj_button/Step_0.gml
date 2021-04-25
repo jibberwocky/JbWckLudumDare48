@@ -8,6 +8,7 @@ hover = lerp(hover, _hover, 0.1);
 y = lerp(y, ystart - hover*8,0.1);
 
 if(_click && (script != -1)){
+	scr_play_sound(snd_click);
 	script_execute(script);
 	
 }

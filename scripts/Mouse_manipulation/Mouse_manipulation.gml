@@ -2,6 +2,7 @@
 function scr_pickup(){
 		//if we click on this object - pick it up
 		if(!picked_up)&&(global.picked_up_object == -1){
+			scr_play_sound(snd_yelp);
 			state = picked_up_script;
 			global.picked_up_object = id;
 			sprite_index = sprite_picked_up;
