@@ -10,11 +10,16 @@ dark_wizard_timer = FRAME_RATE;
 dark_wizard_limit = 1;
 
 
+goblin_timer = FRAME_RATE*60;
+
+
 if(room == Room_game){
+	randomise();
 	 scr_play_bgm(bgm_1);
-	repeat(15){
+	repeat(25){
 		var xx = random_range(TILE_SIZE, room_width-TILE_SIZE)
 		var yy = random_range(500, room_height-TILE_SIZE)
 			instance_create_layer(xx, yy, "Instances", obj_goblin);
 	}
 }
+

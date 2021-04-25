@@ -22,19 +22,27 @@ function scr_goblin_phil_state_idle(){
 	
 	if(vSpeed = 0)&&(!in_conversation){
 		//if we are flat on the ground
-		var _inst = collision_rectangle(x-detection_range, y-TILE_SIZE,x+detection_range, y+TILE_SIZE, obj_goblin,false,true);
-		
-		if(_inst != noone)&&(!_inst.in_conversation){
-			//if there is another goblin nearby and they are also not in conversation
-			image_xscale = sign(_inst.x - x);
-			in_conversation = true;
-			with(_inst){
-				image_xscale = sign(other.x - x);
-				in_conversation = true;
-			}
+
+		collision_rectangle_list(x-detection_range, y-TILE_SIZE,x+detection_range, y+TILE_SIZE, obj_goblin,false,true,  inst_list, false);
+		if(ds_list_size(inst_list) > 0){
+			for(var i = 0; i < (ds_list_size(inst_list)); i++){
+				var _inst = inst_list[| i];
+				if(_inst != noone)&&(!_inst.in_conversation){
+					//if there is another goblin nearby and they are also not in conversation
+					image_xscale = sign(_inst.x - x);
+					in_conversation = true;
+					with(_inst){
+						image_xscale = sign(other.x - x);
+						in_conversation = true;
+					}
 			
-			scr_create_conversation(id, _inst)
+					scr_create_conversation(id, _inst)
+					break;
+				}
+			}
+			 
 		}
+		ds_list_clear(inst_list);
 	}
 
 }

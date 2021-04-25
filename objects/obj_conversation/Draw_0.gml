@@ -11,7 +11,7 @@ if(breakpoints != -1) && (check_breakpoints()){//if we are at a breakpoint
 	#region Draw big_bubble
 	draw_sprite_ext(spr_speech_bubble_big,
 floor(big_bubble_frame ),
-philosopher.x,philosopher.y+bubble_offset,philosopher.image_xscale,1,0,c_white,0.9);
+x,y+bubble_offset,philosopher.image_xscale,1,0,c_white,0.9);
 
 if(big_bubble_frame  < 5){
 	big_bubble_frame += sprite_get_speed(spr_speech_bubble_big)/FRAME_RATE;

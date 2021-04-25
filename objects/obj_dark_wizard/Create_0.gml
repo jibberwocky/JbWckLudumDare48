@@ -5,4 +5,4 @@ event_inherited();
 
 breakpoints = 0;
 
-progress_max = 45;
+progress_max = 30;

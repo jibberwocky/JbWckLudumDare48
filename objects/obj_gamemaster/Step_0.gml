@@ -37,3 +37,14 @@ if(room == Room_tutorial)&&(instance_number(obj_tutorial_goblin) < 1){
 		}
 	}
 }
+
+if(room == Room_game){
+	if(goblin_timer -- <= 0){
+		repeat(irandom_range(0,3)){
+			var xx = random_range(TILE_SIZE, room_width-TILE_SIZE)
+			var yy = random_range(1000, room_height-TILE_SIZE)
+			instance_create_layer(xx, yy, "Instances", obj_goblin);
+		}
+		goblin_timer = FRAME_RATE*60;
+	}
+}

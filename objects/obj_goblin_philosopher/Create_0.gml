@@ -15,3 +15,5 @@ state = idle_script;
 detection_range = 96; 
 
 breakpoints = 0;
+
+inst_list = ds_list_create();
