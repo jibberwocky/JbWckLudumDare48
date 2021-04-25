@@ -2,7 +2,10 @@
   "spriteId": null,
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_progress_bar",
+    "path": "sprites/spr_progress_bar/spr_progress_bar.yy",
+  },
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,

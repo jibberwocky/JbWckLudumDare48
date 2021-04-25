@@ -6,7 +6,7 @@ function scr_choose_new_bubble_option(_goblin){
 	if(_chance < _prefs[_rand]){
 		return _rand;
 	}else{
-		Echo("check fail");
+		//Echo("check fail");
 		return -1;
 	}
 
@@ -63,23 +63,8 @@ function scr_interact_icon (_icon, _pos, _x_scale){
 	
 	if(point_in_rectangle(mouse_x,mouse_y,xx,yy,xx+10,yy+10)){
 		if(global.picked_up_object == -1) &&(mouse_check_button_pressed(mb_left)){
-			//if we click on this button
-			//PLAY A SOUND
-			var _emoticon;
-			var _progress = subject.preferences[_icon];
-			progress += _progress;
-			if(_progress > 0){
-				scr_play_sound(snd_approval);
-				next_breakpoint += 1;
-				_emoticon = 0;
-			}else{
-				scr_play_sound(snd_dissaproval);
-				_emoticon = 1;
-			}
+			scr_progress_topic(_icon);
 			_chosen = true;
-			repeat(3){
-				scr_create_popup(subject.x ,subject.y-(TILE_SIZE*0.5),-1, _emoticon);
-			}
 		} 
 	}
 	return _chosen;
@@ -94,4 +79,22 @@ function check_breakpoints(){
 		}
 	}
 	return _check;
+}
+
+function scr_progress_topic(_topic){
+		var _emoticon;
+	var _progress = subject.preferences[_topic];
+	progress += _progress;
+	if(_progress > 0){
+		scr_play_sound(snd_approval);
+		next_breakpoint += 1;
+		_emoticon = 0;
+	}else{
+		scr_play_sound(snd_dissaproval);
+		_emoticon = 1;
+	}
+	_chosen = true;
+	repeat(3){
+		scr_create_popup(subject.x ,subject.y-(TILE_SIZE*0.5),-1, _emoticon);
+	}
 }

@@ -16,3 +16,4 @@ detection_range = 96;
 
 breakpoints = 0;
 
+pickup_sound = snd_yelp;

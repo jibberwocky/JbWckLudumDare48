@@ -1,2 +1,4 @@
 /// @description Insert description here
-ds_list_destroy(inst_list);
+if(ds_exists(inst_list, ds_type_list)){
+	ds_list_destroy(inst_list);
+}

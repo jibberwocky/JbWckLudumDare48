@@ -26,7 +26,7 @@ repeat(3){
 
 var _rand = irandom_range(0,array_length(preferences)-1);
 preferences[_rand] -= 40;
-Echo(preferences);
+//Echo(preferences);
 
 breakpoints = 2;
 progress_max = 100;

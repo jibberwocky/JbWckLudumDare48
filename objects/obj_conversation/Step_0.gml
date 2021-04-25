@@ -42,6 +42,12 @@ if(breakpoints != -1) && (check_breakpoints()){//if we are at a breakpoint
 				with(other.philosopher){
 					instance_change(obj_goblin,true);
 				}
+			}else if(object_index == obj_goblin_hut){
+				instance_change(obj_goblin_lib,true);
+				scr_play_sound(snd_aha);
+			}else if(object_index == obj_goblin_lib){
+				create_idea(x,y-4,idea);
+				
 			}else{
 				//talking to each other just makes them more entrenched
 				scr_play_sound(snd_aha);

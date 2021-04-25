@@ -11,4 +11,4 @@ image_blend,
 image_alpha
 );/// @description Insert description here
 
-picked_up = false;
+
