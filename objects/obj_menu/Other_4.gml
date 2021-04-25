@@ -1,1 +1,3 @@
-/// @description Insert description here
+if(room == Room_tutorial){
+	scr_create_text_box("GOBLIN PHILOSOPHER \nCreated for Ludum Dare 48 - 2021\n Pick up and move goblins using the mouse. Place goblins together and they will engage in deep discussions, when a discussion reaches a breakpoint choose a topic to convince the goblin. Goblins are more likely to talk about topics they enjoy. \n Scroll on the screen edge to take your deep ideas deeper into the goblin warren. \n Beware the dark wizard.\n Escape to pause. ");
+}

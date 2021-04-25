@@ -13,3 +13,5 @@ picked_up_script = scr_goblin_phil_state_picked_up;
 state = idle_script;
 
 detection_range = 96; 
+
+breakpoints = 0;

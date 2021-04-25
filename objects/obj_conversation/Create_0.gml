@@ -1,7 +1,7 @@
 /// @description Insert description here
 progress = 0;
 progress_max = 100;
-breakpoints = 0;
+breakpoints = -1;
 
 philosopher = -1;
 subject = -1;
@@ -19,3 +19,13 @@ icon_offset_x = 5;
 bubble_one_option = -1;
 bubble_two_option = -1;
 
+next_breakpoint = 0;
+
+big_bubble_frame = 0;
+
+option_pos = [];
+for(var i  = 0; i <= 3; i++){
+	array_push(option_pos, new Vector(6+(11*i),-(TILE_SIZE+6)));
+	option_icon = [1];
+}
+option_icon = [-1,-1,-1];

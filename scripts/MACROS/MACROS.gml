@@ -15,11 +15,22 @@ function MACROS(){
 	
 	#macro CONVO_RANGE 100
 	
-	#macro increment_speed 0.1
+	#macro increment_speed 0.05
+	
+	#macro WIZARD_DEPTH 500
 }
 
 	
-enum Preferences{
-	
-	//ten random things
+enum PREFS{
+	GOBLIN,
+	DAGGER,
+	HEART,
+	RAT,
+	CAVE,
+	MUSIC,
+	MEAT,
+	ROCK,
+	SKULL,
+	MUSHROOM,
+	HEIGHT
 }

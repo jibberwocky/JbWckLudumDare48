@@ -116,3 +116,8 @@ function Chance(_chance){
 
 	return _chance > random(1);
 }
+
+function Vector(_x, _y) constructor{
+	xx = _x;
+	yy = _y;
+}

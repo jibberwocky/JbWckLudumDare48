@@ -33,11 +33,7 @@ function scr_goblin_phil_state_idle(){
 				in_conversation = true;
 			}
 			
-			var _convo = instance_create_layer(x,y,"Instances",obj_conversation);
-			with(_convo){
-				philosopher = other;
-				subject = _inst;
-			}
+			scr_create_conversation(id, _inst)
 		}
 	}
 

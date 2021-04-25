@@ -1,5 +1,4 @@
 {
-  "name": "til_cave",
   "spriteId": {
     "name": "spr_tiles_cave",
     "path": "sprites/spr_tiles_cave/spr_tiles_cave.yy",
@@ -141,6 +140,7 @@
     "path": "folders/Tile Sets.yy",
   },
   "resourceVersion": "1.0",
+  "name": "til_cave",
   "tags": [],
   "resourceType": "GMTileSet",
 }
